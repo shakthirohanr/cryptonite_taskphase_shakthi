@@ -1,3 +1,10 @@
-# cryptonite_taskphase_shakthi
+# Cryptonite Task Phase
 
-h
+This repository contains all my write-ups for the modules of Linux Luminarium.
+
+
+![](https://i.imgur.com/QevQHmx.png)
+
+## Table of Contents
+- [Hello Hackers](./Hello_Hackers.md)
+- [Pondering Paths](./Pondering_Paths.md)

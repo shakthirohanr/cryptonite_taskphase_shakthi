@@ -5,11 +5,11 @@ This module was on executing commands in Linux.
 ![](https://i.imgur.com/KC9GHzf.png)
 
 - [Hello Hackers](#hello-hackers)
-    - [Intro to Commands](#intro-to-commands)
-    - [Intro to Arguments](#intro-to-arguments)
+  - [Intro to Commands](#intro-to-commands)
+  - [Intro to Arguments](#intro-to-arguments)
   - [Completion](#completion)
 
-### Intro to Commands
+## Intro to Commands
  In the given example, we invoked the `whoami` command which printed out the username.
  
  I invoked the `hello` command and retrieved the flag `pwn.college{cWOW6YQPJqpJPsXccfcGbQGlsje.ddjNyUDL1QjN0czW}`.
@@ -21,7 +21,7 @@ hacker@hello~intro-to-commands:~$ hello
 Success! Here is your flag:
 pwn.college{cWOW6YQPJqpJPsXccfcGbQGlsje.ddjNyUDL1QjN0czW}
 ```
-### Intro to Arguments
+## Intro to Arguments
 
 In the given example, we ran `echo Hello` and the command printed `Hello`. The echo command is used to print out the argument provided to it. Here the command is `echo` and `Hello` is the argument.
 

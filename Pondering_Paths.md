@@ -5,18 +5,18 @@ This module familiarizes us with the Linux file system.
 ![](https://i.imgur.com/AFklwkH.png)
 
 - [Pondering Paths](#pondering-paths)
-    - [The Root](#the-root)
-    - [Program and absolute paths](#program-and-absolute-paths)
-    - [Position thy self](#position-thy-self)
-    - [Position elsewhere](#position-elsewhere)
-    - [Position yet elsewhere](#position-yet-elsewhere)
-    - [implicit relative paths, from /](#implicit-relative-paths-from-)
-    - [explicit relative paths, from /](#explicit-relative-paths-from-)
-    - [implicit relative path](#implicit-relative-path)
-    - [home sweet home](#home-sweet-home)
+  - [The Root](#the-root)
+  - [Program and absolute paths](#program-and-absolute-paths)
+  - [Position thy self](#position-thy-self)
+  - [Position elsewhere](#position-elsewhere)
+  - [Position yet elsewhere](#position-yet-elsewhere)
+  - [implicit relative paths, from /](#implicit-relative-paths-from-)
+  - [explicit relative paths, from /](#explicit-relative-paths-from-)
+  - [implicit relative path](#implicit-relative-path)
+  - [home sweet home](#home-sweet-home)
   - [Completion](#completion)
 
-### The Root
+## The Root
 
 In Linux the filesystem starts at `/`. In this challenge we must run the file `pwn` to retrieve our flag but the file `pwn` is located in the root level and not in our current directory.
 
@@ -27,7 +27,7 @@ BOOM!!!
 Here is your flag:
 pwn.college{YhMNpErKX_rpDe-CXqn179gHRZr.dhzN5QDL1QjN0czW}
 ```
-### Program and absolute paths
+## Program and absolute paths
 
 In this challenge, the program `run` that will give us the flag is located in the `challenge` directory which in turn is located in the root directory. 
 
@@ -39,7 +39,7 @@ Correct!!!
 pwn.college{wgHLYUJ57xURm9CUV7ioGPr90j2.dVDN1QDL1QjN0czW}
 
 ```
-### Position thy self
+## Position thy self
 
 I ran the command `/challenge/run` but it told me that I am not in the correct directory. It told me that the challenge directory is located in `/var/log`.
 
@@ -57,7 +57,7 @@ Here is your flag:
 pwn.college{wuSfjA7V88uhpqmgv6TiTRP0AQ5.dZDN1QDL1QjN0czW}
 
 ```
-### Position elsewhere
+## Position elsewhere
 
 This challenge is very similar to the previous challenge. The challenge directory is located in `/var/lib/apt/lists`.
 
@@ -74,7 +74,7 @@ Correct!!!
 Here is your flag:
 pwn.college{wchQJlLYM3HPiiG2NSu1Vt31yyO.ddDN1QDL1QjN0czW}
 ```
-### Position yet elsewhere
+## Position yet elsewhere
 
 This challenge is similar to the previous two challenges. The challenge directory is located in `/var/log`.
 
@@ -91,7 +91,7 @@ Correct!!!
 Here is your flag:
 pwn.college{ErPTRM5yWEadtJsfaZE-1I3Fx-W.dhDN1QDL1QjN0czW}
 ```
-### implicit relative paths, from /
+## implicit relative paths, from /
 
 In this challenge they ask us to change our current working directory to the root directory and then run the program using its relative path. 
 
@@ -104,7 +104,7 @@ challenge/run is a relative path, invoked from the right directory!
 Here is your flag:
 pwn.college{o2gzdkiBtBdfHBcw6Jzq4It-wGn.dlDN1QDL1QjN0czW}
 ```
-### explicit relative paths, from /
+## explicit relative paths, from /
 
 In this challenge they ask us to run the program using its relative path and implicit entries that can be referenced in Linux. The program's absolute path is `/challenge/run`
 
@@ -125,7 +125,7 @@ Correct!!!
 Here is your flag:
 pwn.college{ApsSZJ0--pKmpLQqJhZGMOx-JAz.dBTN1QDL1QjN0czW}
 ```
-### implicit relative path
+## implicit relative path
 
 In this challenge they ask us to run the program from the `/challenge` directory. But Linux explicitly avoids automatically looking in the current directory when you provide a "naked" path due to security reasons.
 
@@ -140,7 +140,7 @@ Correct!!!
 Here is your flag:
 pwn.college{g8_P6Oc7_3vlP1QhlYS0AvdhFmu.dFTN1QDL1QjN0czW}
 ```
-### home sweet home
+## home sweet home
 In this challenge they ask to run the program providing it an argument which is the path of a file in the home directory. 
 
 The challenge constraints us to limit the length of the path to only 3 characters. The short hand operator `~` corresponds to the absolute path of the home directory so we can use `/challenge/run ~/f` where `~/f` is the absolute path of the file the program will copy our flag to.

@@ -17,6 +17,7 @@ This module goes over some common and usefull Linux commands.
   - [making directories 📁](#making-directories-)
   - [finding files 🔎](#finding-files-)
   - [linking files :link:](#linking-files-link)
+  - [Completion](#completion)
 
 ## cat: not the pet, but the command! :cat:
 
@@ -254,3 +255,7 @@ I try to print out the contents of all the files using `cat` and find the flag i
 In this challenge our flag is located in `/flag`. We need to run `/challenge/catflag` to print out the flag. 
 
 I link `/home/hacker/not-the-flag` to `/flag` and then run `/challenge/catflag` to get the flag - `pwn.college{MBqLJfgNl4p72VhQLXpgbECUYdr.dlTM1UDL1QjN0czW}`.
+
+## Completion
+
+![](https://i.imgur.com/k8V3ONk.png)

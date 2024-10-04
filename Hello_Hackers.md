@@ -1,6 +1,6 @@
 # Hello Hackers
 
-This module was on executing commands in Linux.
+This module is about executing commands in Linux.
 
 ![](https://i.imgur.com/KC9GHzf.png)
 
@@ -36,4 +36,5 @@ pwn.college{4eejKYlHLpaORzCqCDsQ5yO5g_D.dhjNyUDL1QjN0czW}
 ```
 
 ## Completion
+
 ![](https://i.imgur.com/p4dCEUp.png)

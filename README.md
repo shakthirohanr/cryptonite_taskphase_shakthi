@@ -10,3 +10,4 @@ This repository contains all my write-ups for the modules of Linux Luminarium.
 - [Pondering Paths](./Pondering_Paths.md)
 - [Comprehending Commands](./Comprehending_Commands.md)
 - [Digesting Documentation](./Digesting_Documentation.md)
+- [File Globbing](./File_Globbing.md)

@@ -11,6 +11,7 @@ This module is about file globbing.
   - [Matching paths with \[\]](#matching-paths-with-)
   - [Missing globs](#missing-globs)
   - [Exclusionary globbing](#exclusionary-globbing)
+  - [Completion](#completion)
 
 ## Matching with * 
  
@@ -60,6 +61,9 @@ Like the previous challenge, we are supposed to execute `/challenge/run` with a 
 I run `/challenge/run /challenge/files/file_[bash]` to get the flag - `pwn.college{gg7X5E-7h8rWec6CltvctY3UbHn.dRjM4QDL1QjN0czW}`
 
 ```
+hacker@globbing~matching-paths-with-:~$ /challenge/run /challenge/files/file_[bash]
+You got it! Here is your flag!
+pwn.college{gg7X5E-7h8rWec6CltvctY3UbHn.dRjM4QDL1QjN0czW}
 ```
 
 ## Missing globs
@@ -91,4 +95,6 @@ hacker@globbing~exclusionary-globbing:/challenge/files$ /challenge/run [!pwn]*
 You got it! Here is your flag!
 ```
 
+## Completion 
 
+![](https://i.imgur.com/qfGMsE7.png)

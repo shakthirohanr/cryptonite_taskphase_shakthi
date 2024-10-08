@@ -11,3 +11,4 @@ This repository contains all my write-ups for the modules of Linux Luminarium.
 - [Comprehending Commands](./Comprehending_Commands.md)
 - [Digesting Documentation](./Digesting_Documentation.md)
 - [File Globbing](./File_Globbing.md)
+- [Practicing_Piping](./Practicing_Piping.md)

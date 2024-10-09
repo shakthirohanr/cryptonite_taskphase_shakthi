@@ -12,3 +12,4 @@ This repository contains all my write-ups for the modules of Linux Luminarium.
 - [Digesting Documentation](./Linux_Luminarium/Digesting_Documentation.md)
 - [File Globbing](./Linux_Luminarium/File_Globbing.md)
 - [Practicing Piping](./Linux_Luminarium/Practicing_Piping.md)
+- [Shell Variables](./Linux_Luminarium/Shell_Variables.md)

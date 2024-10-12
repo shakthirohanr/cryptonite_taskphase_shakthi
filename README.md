@@ -14,3 +14,4 @@ This repository contains all my write-ups for the modules of Linux Luminarium.
 - [Practicing Piping](./Linux_Luminarium/Practicing_Piping.md)
 - [Shell Variables](./Linux_Luminarium/Shell_Variables.md)
 - [Processes and Jobs](./Linux_Luminarium/Processes_and_Jobs.md)
+- [Perceiving_Permissions](./Linux_Luminarium/Perceiving_Permissions.md)

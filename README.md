@@ -14,8 +14,10 @@ This repository contains all my write-ups for the modules of Linux Luminarium.
 - [Practicing Piping](./Linux_Luminarium/Practicing_Piping.md)
 - [Shell Variables](./Linux_Luminarium/Shell_Variables.md)
 - [Processes and Jobs](./Linux_Luminarium/Processes_and_Jobs.md)
-- [Perceiving_Permissions](./Linux_Luminarium/Perceiving_Permissions.md)
+- [Perceiving Permissions](./Linux_Luminarium/Perceiving_Permissions.md)
 - [Untangling Users](./Linux_Luminarium/Untangling_Users.md)
+- [Chaining Commands](./Linux_Luminarium/Chaining_Commands.md)
+- [Pondering PATH](./Linux_Luminarium/Pondering_PATH.md)
 
 ## Profile 
 

@@ -20,4 +20,4 @@ This repository contains all my write-ups for the modules of Linux Luminarium.
 ## Profile 
 
 
-<p><a href="https://pwn.college/hacker/74645" target="_blank"><img src="https://cdn.discordapp.com/attachments/1146471180858048532/1293315129865404426/image.png?ex=6706ed13&is=67059b93&hm=37e6530f87684291819a61915a002c2b32e5f55b1653575d825159bacafc1879&" alt="pwn.college" style="height: auto !important;width: auto !important;" ></a></p>
+<p><a href="https://pwn.college/hacker/74645" target="_blank"><img src="https://imgur.com/e0Sm4SG.png" alt="pwn.college" style="height: auto !important;width: auto !important;" ></a></p>

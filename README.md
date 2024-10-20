@@ -3,7 +3,7 @@
 This repository contains all my write-ups for the modules of Linux Luminarium.
 
 
-![](https://i.imgur.com/QevQHmx.png)
+![](https://i.imgur.com/sagXwhB.png)
 
 ## Table of Contents
 - [Hello Hackers](./Linux_Luminarium/Hello_Hackers.md)

@@ -8,18 +8,21 @@ This repository contains all my write-ups for the modules of Linux Luminarium.
 ## Table of Contents
 
 - **Linux Luminarium**
- - [Hello Hackers](./Linux_Luminarium/Hello_Hackers.md)
- - [Pondering Paths](./Linux_Luminarium/Pondering_Paths.md)
- - [Comprehending Commands](./Linux_Luminarium/Comprehending_Commands.md)
- - [Digesting Documentation](./Linux_Luminarium/Digesting_Documentation.md)
- - [File Globbing](./Linux_Luminarium/File_Globbing.md)
- - [Practicing Piping](./Linux_Luminarium/Practicing_Piping.md)
- - [Shell Variables](./Linux_Luminarium/Shell_Variables.md)
- - [Processes and Jobs](./Linux_Luminarium/Processes_and_Jobs.md)
- - [Perceiving Permissions](./Linux_Luminarium/Perceiving_Permissions.md)
- - [Untangling Users](./Linux_Luminarium/Untangling_Users.md)
- - [Chaining Commands](./Linux_Luminarium/Chaining_Commands.md)
- - [Pondering PATH](./Linux_Luminarium/Pondering_PATH.md)
+  
+  - [Hello Hackers](./Linux_Luminarium/Hello_Hackers.md)
+  - [Pondering Paths](./Linux_Luminarium/Pondering_Paths.md)
+  - [Comprehending Commands](./Linux_Luminarium/Comprehending_Commands.md)
+  - [Digesting Documentation](./Linux_Luminarium/Digesting_Documentation.md)
+  - [File Globbing](./Linux_Luminarium/File_Globbing.md)
+  - [Practicing Piping](./Linux_Luminarium/Practicing_Piping.md)
+  - [Shell Variables](./Linux_Luminarium/Shell_Variables.md)
+  - [Processes and Jobs](./Linux_Luminarium/Processes_and_Jobs.md)
+  - [Perceiving Permissions](./Linux_Luminarium/Perceiving_Permissions.md)
+  - [Untangling Users](./Linux_Luminarium/Untangling_Users.md)
+  - [Chaining Commands](./Linux_Luminarium/Chaining_Commands.md)
+  - [Pondering PATH](./Linux_Luminarium/Pondering_PATH.md)
+  - 
+- [**Bandit**](./bandit.md)
 
 ## Profile 
 
